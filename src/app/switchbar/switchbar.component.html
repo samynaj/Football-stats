@@ -1,0 +1,6 @@
+<div class="switch">
+    <button class="btn" [class.btn-active]="selectedFixtures" (click)="displayFixtures(leagueId)">Fixtures</button>
+    <button class="btn" [class.btn-active]="selectedStandings" (click)="displayStandings(leagueId)">Standings</button>
+    <button class="btn" [class.btn-active]="selectedTopScorers" (click)="displayTopScorers(leagueId)">Top Scorers</button>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <div class="wrapper-head">
+        <span>Ps</span>
+        <span>Name</span>
+        <span>Team</span>
+        <span>Goals</span>
+    </div>
+    <div class="wrapper-body" *ngFor="let topscorer of topScorers$; index as i">
+        <span>{{i+1}}</span>
+        <span>{{topscorer.player.name}}</span>
+        <span>{{topscorer.team.name}}</span>
+        <span>{{topscorer.numberOfGoals}}</span>
+    </div>
+</div>

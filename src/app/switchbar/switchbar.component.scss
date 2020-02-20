@@ -1,0 +1,28 @@
+.switch {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 3vmin;
+
+
+	.btn {
+		margin-top: 2vh;
+		background-color: transparent;
+		color: #eeecec;
+		padding: 1vmin;
+		
+		
+
+		&:hover {
+			transform: scale(1.1);
+			color: #F64C72;
+		}
+	}
+	.btn-active{
+		color: #F64C72;
+		border-bottom: 2px solid #F64C72;
+	}
+	
+}
+
+
+
