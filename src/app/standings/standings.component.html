@@ -1,0 +1,28 @@
+<div class="wrapper">
+    <div class="wrapper-head">
+        <span>Ps</span>
+        <span></span>
+        <span>Team</span>
+        <span>P</span>
+        <span>W</span>
+        <span>D</span>
+        <span>L</span>
+        <span>GF</span>
+        <span>GA</span>
+        <span>GD</span>
+        <span>PTS</span>
+    </div>
+    <div class="wrapper-body" *ngFor="let standing of standings$">
+        <span>{{standing.position}}</span>
+        <span><img src="{{standing.team.crestUrl}}" alt="" class="responsive" style="max-width: 15px"></span>
+        <span>{{standing.team.name}}</span>
+        <span>{{standing.playedGames}}</span>
+        <span>{{standing.won}}</span>
+        <span>{{standing.draw}}</span>
+        <span>{{standing.lost}}</span>
+        <span>{{standing.goalsFor}}</span>
+        <span>{{standing.goalsAgainst}}</span>
+        <span>{{standing.goalDifference}}</span>
+        <span>{{standing.points}}</span>
+    </div>
+</div>

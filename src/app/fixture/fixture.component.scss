@@ -1,0 +1,30 @@
+.wrapper {
+    background: #afaeae;
+    opacity: 0.7;
+
+    .match {
+        color: #2f2fa2;
+
+        &-day {
+            font-size: 2.3vmin;
+            margin-bottom: 5vmin;
+        }
+        
+        &-teams {
+            display: grid;
+            grid-template-columns: 2fr 1fr 2fr;
+            font-size: 2.3vmin;
+            text-align: center;
+            margin-bottom: 3vmin;
+
+            &-home, &-away {
+                font-weight: 600;
+            }
+            &-home {
+                color: #f64c72;
+            }
+            
+        }
+    }
+    
+}

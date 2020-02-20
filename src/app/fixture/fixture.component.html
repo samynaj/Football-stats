@@ -1,0 +1,12 @@
+<div class="wrapper">
+    <div class="match" *ngFor="let fixture of fixtures$">
+        <h6 class="match-day">Date: {{fixture.utcDate}}</h6>
+        <div class="match-teams">
+            <span class="match-teams-home">{{fixture.homeTeam.name}}</span>
+            <span class="match-teams-vs">Vs</span>
+            <span class="match-teams-away">{{fixture.awayTeam.name}}</span>
+        </div>
+    </div>
+
+</div>
+
