@@ -1,0 +1,21 @@
+.header-nav {
+    background: #2F2FA2;
+
+    .comp {
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        &:hover {
+            border: 1px solid #F64C72;
+            color: #F64C72;
+        }
+    }
+
+    .navbar-brand {
+        color: #F64C72;
+        overflow-y: hidden;
+    }
+}
