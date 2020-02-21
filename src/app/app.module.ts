@@ -8,7 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { SwitchbarComponent } from './switchbar/switchbar.component';
 import { StandingsComponent } from './standings/standings.component';
 import { TopScorersComponent } from './top-scorers/top-scorers.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http'
     HeaderComponent,
     SwitchbarComponent,
     StandingsComponent,
-    TopScorersComponent
+    TopScorersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,22 @@
+.footer {
+    background: #2f2fa2;
+    color: #fff;
+    &-top {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5vh;
+
+        .brand {
+            font-family: 'Berkshire Swash';
+            font-size: 3vmin;
+            color: #F64C72;
+        }
+        
+    }
+
+    &-copy {
+        text-align: center;
+        margin: 10vh 5vmax 3vmin 0;
+        
+    }
+}
