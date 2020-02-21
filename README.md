@@ -1,27 +1,19 @@
-# FootballStats
+# Football-stats
+This is a football statistics website built with Angular 6+ as an assessment for Byteworks.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+# Brief Description
+This site has access to football data for 7 major football leagues, champions league inclusive from football-data.org.
 
-## Development server
+# Libraries Used
+SASS, Bootstrap were the libraries used for structuring and designing the site to be responsive.
+- SASS was used to take advantage of nesting, variables and other functionalities it offers.
+- Bootstrap was used in some parts of the site where it proved more time demanding if built from scratch. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Time Taken
+It took three days to build this site to this stage and more modifications will continue.
 
-## Code scaffolding
+# Difficulties
+The only difficulty encountered was access to the given API (statsfc.com) for the assessment had issues, of which i made complaints through mail and no reply regarding that was recieved and with deadline approaching I had to use another API.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Fuctionalities Proud of
+The routing and responsiveness is the functionality i am most proud of.
